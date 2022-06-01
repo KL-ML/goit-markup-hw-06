@@ -333,6 +333,9 @@ img {
     margin-bottom: 10px;
 
 }
+.modalform-label:last-child {
+    margin-bottom: 0px;
+}
 
 .form-text {
     font-size: 12px;
@@ -391,11 +394,9 @@ img {
 }
 
 .check {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1.2em;
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.71;
@@ -408,12 +409,9 @@ img {
 
 }
 .check_box {
-    position: absolute;
-    top: 0.2em;
-    left: 0.8em;
     width: 16px;
     height: 15px;
-    border: 0.1em solid var(--dark-grey);
+    border: 2px solid var(--dark-grey);
     border-radius: 2px;
     background-color: var(--hero-h1-white);
 
@@ -881,9 +879,7 @@ img {
 .tel {
     color: var(--footer-contakts);
 }
-.sociallinks-group {
-    margin-right: 93px;
-}
+
 .sociallinks-title {
     font-weight: 700;
     font-size: 14px;
