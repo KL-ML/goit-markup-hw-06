@@ -761,6 +761,11 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+@media only screen and (max-width: 767px) {
+  .features-card-title {
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 1158px) {
   .features-card-title {
     font-size: 20px;
@@ -886,7 +891,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    padding-left: 108px;
+    width: 584px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -995,12 +1000,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
 
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
   margin: 0;
   box-shadow: none;
+  max-width: 165px;
 }
 .footer-btn-icon {
   fill: var(--brand-color-white);
